@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExerciceConvertisseurUnit</string>
+
+    <string-array name="unites">
+        <item>Kilometre (Km)</item>
+        <item>Hectometre (hm)</item>
+        <item>Decametre (dam)</item>
+        <item>metre (m)</item>
+        <item>Demetre (dm)</item>
+        <item>Centmetre (cm)</item>
+        <item>Millimetre (mm)</item>
+    </string-array>
+</resources>
