@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Button b;
     TextView tres;
     String[] unites;
-    float[] valunits = {1000, 100, 10, 1, 0.1f, 0.01f, 0.001f};
+    float[] valunits = {0.001f, 0.01f, 0.1f, 1, 10, 100, 1000};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 int posFrom = spfrom.getSelectedItemPosition();
                 int posTo = spto.getSelectedItemPosition();
 
-                double res = val * (valunits[posFrom] / valunits[posTo]);
+                double res = val * (valunits[posTo] / valunits[posFrom]);
 
                 tres.setText(String.format("Resultat : %.2f",res));
 
